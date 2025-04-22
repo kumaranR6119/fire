@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('wp2424062.webp'); 
+    background-size: cover;
+  }
+  .error{
+    display: block;
+    color: rgb(13, 14, 15);
+    padding: 0px;
+    width: 200px;
+    height: 25px;
+  }
+  header {
+    padding: 10px 0;
+  }
+  
+  div a {
+    color: rgba(253, 244, 244, 0.733);
+    text-decoration: none;
+    font-size: 24px;
+    text-shadow:  0 8px 16px rgb(0, 0, 0);
+    display: inline-block;
+    width: 8%;
+    padding: 2px 2px 2px 10px;
+  }
+  .container {
+    background-color: #0b0b0b2f;
+    color: rgb(6, 251, 157);
+    font-size: 20px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:50px auto;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+  }
+  
+  .name,.email,.pho{
+    display: block;
+    background-color: rgba(10, 130, 132, 0.819);
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+    margin: 10px auto;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+  }
+.na{
+    display: block;
+    color: rgba(250, 246, 246, 0.819);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    width: 99%;
+    text-shadow:  0 8px 16px rgb(0, 0, 0);
+}
+.reset,.submit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(10, 120, 72);
+    color: rgb(0, 255, 187);
+}
+a:hover{
+    color: black;
+    font-size: 24px;
+}
+.travel{
+  font-size: larger;
+}
+.n{
+    display: block;
+    margin-top: none;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    width: 100%;
+    text-shadow:  0 8px 16px rgb(0, 0, 0);
+}
